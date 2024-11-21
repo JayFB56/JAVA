@@ -4,11 +4,17 @@ body {
     padding: 0;
     background-color: #f4f4f9;
     color: #333;
+    display: flex;
+    justify-content: center; /* Centrado horizontal */
+    align-items: center;     /* Centrado vertical */
+    height: 100vh;           /* Asegura que ocupe toda la altura de la ventana */
+    margin: 0;               /* Elimina cualquier margen predeterminado */
 }
 
 .container {
     max-width: 800px;
-    margin: 0 auto;
+    width: 90%;
+    margin: 0;
     padding: 20px;
     background: #fff;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
